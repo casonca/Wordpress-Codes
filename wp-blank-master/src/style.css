@@ -1,0 +1,18 @@
+/*
+Theme Name: wp-blank
+Theme URI: https://github.com/irmantastam/wp-blank
+Author: Irmantas Tamašauskas
+Author URI: https://github.com/irmantastam
+Description: Blank WordPress theme for building custom front-end. Github: <a href="https://github.com/irmantastam/wp-blank">irmantastam/wp-blank</a>
+Version: 1.0
+Requires PHP: 7.3
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: wordpress, html, javascript, sass, css, postcss, webpack, babel
+Text Domain: wp-blank
+*/
+
+/*
+This CSS file is needed for WordPress to recognize the theme and display its info.
+Please use the ../src/assets/styles/main.scss as an entry point for your SASS code.
+*/

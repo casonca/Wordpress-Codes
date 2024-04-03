@@ -1,0 +1,204 @@
+/*====================================================================*/
+/* GENERAL STYLES                                                     */
+/*====================================================================*/
+
+/*--------------------------------------------------------------------*/
+/* Style control titles and descriptions                              */
+/*--------------------------------------------------------------------*/
+.wp-full-overlay-sidebar .customize-control-description {
+	margin-bottom: 13px;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/* Style text inputs, textarea and select                             */
+/*--------------------------------------------------------------------*/
+.wp-full-overlay-sidebar input[type="text"],
+.wp-full-overlay-sidebar input[type="url"],
+.wp-full-overlay-sidebar input[type="email"],
+.wp-full-overlay-sidebar input[type="number"],
+.wp-full-overlay-sidebar input[type="tel"],
+.wp-full-overlay-sidebar input[type="time"],
+.wp-full-overlay-sidebar input[type="date"],
+.wp-full-overlay-sidebar input[type="datetime"],
+.wp-full-overlay-sidebar input[type="datetime-local"],
+.wp-full-overlay-sidebar input[type="week"],
+.wp-full-overlay-sidebar input[type="month"],
+.wp-full-overlay-sidebar input[type="search"],
+.wp-full-overlay-sidebar input[type="password"],
+.wp-full-overlay-sidebar select,
+.wp-full-overlay-sidebar textarea {
+	width: 100%;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/* Style checkbox inputs                                              */
+/*--------------------------------------------------------------------*/
+.wp-full-overlay-sidebar .customize-control-checkbox {
+	margin-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/* Style radio inputs                                                 */
+/*--------------------------------------------------------------------*/
+.wp-full-overlay-sidebar .customize-control-radio {
+	margin-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/* Style image and file upload                                        */
+/*--------------------------------------------------------------------*/
+.wp-full-overlay-sidebar .customize-control-image .container,
+.wp-full-overlay-sidebar .customize-control-upload .container,
+.wp-full-overlay-sidebar .customize-control-site_icon .container {
+	min-height: 20px;
+}
+
+.wp-full-overlay-sidebar .customize-control-image .placeholder,
+.wp-full-overlay-sidebar .customize-control-upload .placeholder,
+.wp-full-overlay-sidebar .customize-control-site_icon .placeholder {
+	min-height: 40px;
+}
+
+.wp-full-overlay-sidebar .customize-control-image img,
+.wp-full-overlay-sidebar .customize-control-upload img,
+.wp-full-overlay-sidebar .customize-control-site_icon img {
+	width: auto;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/* Style range inputs                                                 */
+/*--------------------------------------------------------------------*/
+.wp-full-overlay-sidebar input[type="range"] {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	height: 22px;
+}
+
+/* Style range in Webkit browsers */
+.wp-full-overlay-sidebar input[type="range"] {
+	background: none;
+	-webkit-appearance: none;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 2px;
+	border: none;
+	border-radius: 2px;
+	background-color: #cccccc;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 12px;
+	height:12px;
+	border: #cccccc 1px solid;
+	border-radius: 2px;
+	background-color: #ffffff;
+	margin-top: -5px;
+}
+
+.wp-full-overlay-sidebar input[type="range"]:focus {
+	outline: none;
+}
+
+.wp-full-overlay-sidebar input[type="range"]:focus::-webkit-slider-runnable-track {
+	background-color: #cccccc;
+}
+
+
+/* Style range in Mozilla browsers */
+.wp-full-overlay-sidebar input[type="range"] {
+	background: none;
+	border: 1px solid #eeeeee;    /* Fix for focus style bug */
+	width: 100%;                  /* Required for proper track sizing */
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-moz-range-track {
+	width: 100%;
+	height: 2px;
+	border: none;
+	border-radius: 2px;
+	background-color: #cccccc;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-moz-range-thumb {
+	width: 10px;
+	height: 10px;
+	border: #cccccc 1px solid;
+	border-radius: 2px;
+	background-color: #ffffff;
+}
+
+.wp-full-overlay-sidebar input[type="range"]:-moz-focusring{
+	outline: 1px solid white;
+	outline-offset: -1px;
+}
+
+.wp-full-overlay-sidebar input[type="range"]:focus::-moz-range-track {
+	background-color: #cccccc;
+}
+
+
+/* Style range in Internet Explorer */
+.wp-full-overlay-sidebar input[type="range"] {
+	background: none;
+	-ms-appearance: none;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-ms-track {
+	color: #cccccc;
+	width: 100%;
+	height: 2px;
+	border: none;
+	border-radius: 2px;
+	background-color: #cccccc;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-ms-fill-upper,
+.wp-full-overlay-sidebar input[type="range"]::-ms-fill-lower {
+	background-color: #cccccc;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-ms-ticks,
+.wp-full-overlay-sidebar input[type="range"]::-ms-ticks-before,
+.wp-full-overlay-sidebar input[type="range"]::-ms-ticks-after {
+	display: none;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-ms-thumb {
+	width: 10px;
+	height: 10px;
+	border: #cccccc 1px solid;
+	border-radius: 2px;
+	background-color: #ffffff;
+}
+
+.wp-full-overlay-sidebar input[type="range"]::-ms-tooltip {
+	display: none;
+}
+
+.wp-full-overlay-sidebar input[type="range"]:focus::-ms-track {
+	background-color: #cccccc;
+}
+
+
+
+
+
+/*====================================================================*/
+/* THEME-SPECIFIC STYLES                                              */
+/*====================================================================*/
+
+/* Use spacing of 25px or 50px between elements */

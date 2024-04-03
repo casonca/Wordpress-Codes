@@ -1,0 +1,41 @@
+/* Change the background color of the body */
+body {
+    background-color: #f0f0f0; /* Replace with your desired color */
+}
+
+/* Change the color of the main text */
+body {
+    color: #333; /* Replace with your desired color */
+}
+
+/* Change the color of links */
+a {
+    color: #0073e6; /* Replace with your desired color */
+}
+
+/* Change the font family */
+body {
+    font-family: Arial, sans-serif; /* Replace with your desired font family */
+}
+
+/* Increase the font size */
+body {
+    font-size: 16px; /* Replace with your desired font size */
+}
+
+/* Customize the header */
+.site-header {
+    background-color: #0073e6; /* Replace with your desired color */
+    color: #fff; /* Replace with your desired color */
+}
+
+/* Customize the navigation menu */
+.main-navigation {
+    background-color: #0073e6; /* Replace with your desired color */
+}
+
+/* Customize the footer */
+.site-footer {
+    background-color: #333; /* Replace with your desired color */
+    color: #fff; /* Replace with your desired color */
+}
